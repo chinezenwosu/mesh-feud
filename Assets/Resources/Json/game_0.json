@@ -1,0 +1,158 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "text": "Anniversary ",
+          "points": 40
+        },
+        {
+          "text": "Apology ",
+          "points": 26
+        },
+        {
+          "text": "Birthday ",
+          "points": 17
+        },
+        {
+          "text": "Valentine's Day ",
+          "points": 11
+        },
+        {
+          "text": "Say He Loves Her ",
+          "points": 7
+        }
+      ],
+      "question": "Name A Reason A Husband Might Send His Wife Flowers"
+    },
+    {
+      "answers": [
+        {
+          "text": "Chewing Gum ",
+          "points": 43
+        },
+        {
+          "text": "Mouthwash ",
+          "points": 28
+        },
+        {
+          "text": "Toothpaste / Toothbrush ",
+          "points": 18
+        },
+        {
+          "text": "Pen ",
+          "points": 12
+        },
+        {
+          "text": "Cutlery ",
+          "points": 8
+        },
+        {
+          "text": "False Teeth ",
+          "points": 5
+        }
+      ],
+      "question": "Name Something You Put In Your Mouth But Dont Swallow"
+    },
+    {
+      "answers": [
+        {
+          "text": "License",
+          "points": 45
+        },
+        {
+          "text": "Registration",
+          "points": 29
+        },
+        {
+          "text": "Insurance",
+          "points": 19
+        },
+        {
+          "text": "Cell Phone",
+          "points": 12
+        },
+        {
+          "text": "Seat Belt",
+          "points": 8
+        }
+      ],
+      "question": "Name Something You Would Have To Be Without When Cops Pull Over"
+    },
+    {
+      "answers": [
+        {
+          "text": "Burglar",
+          "points": 35
+        },
+        {
+          "text": "Pet",
+          "points": 29
+        },
+        {
+          "text": "Santa Claus",
+          "points": 18
+        },
+        {
+          "text": "Kid/ Teen",
+          "points": 10
+        },
+        {
+          "text": "Police Officer",
+          "points": 5
+        }
+      ],
+      "question": "Who Or What Might Enter A House Without Using The Front Door?"
+    },
+    {
+      "answers": [
+        {
+          "text": "Leave Seat Up",
+          "points": 34
+        },
+        {
+          "text": "Pee On Seat",
+          "points": 26
+        },
+        {
+          "text": "Don’t Clean Sink",
+          "points": 21
+        },
+        {
+          "text": "Cut Their Hair",
+          "points": 5
+        },
+        {
+          "text": "Leave Underware",
+          "points": 4
+        },
+        {
+          "text": "Read",
+          "points": 3
+        }
+      ],
+      "question": "Name Something Men Do In The Bathroom That Really Ticks Women Off."
+    },
+    {
+      "answers": [
+        {
+          "text": 10,
+          "points": 11
+        },
+        {
+          "text": 12,
+          "points": 13
+        },
+        {
+          "text": 14,
+          "points": 15
+        },
+        {
+          "text": 16,
+          "points": null
+        }
+      ],
+      "question": "How Old Were You When You Had Your First Crush"
+    }
+  ]
+}

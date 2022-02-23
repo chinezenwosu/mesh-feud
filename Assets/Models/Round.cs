@@ -1,8 +1,17 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class Round
 {
-    public int Name = 1;
-    public string Question = string.Empty;
-    public int Score { get; set; } = 0;
+    public string question = string.Empty;
+    public List<Answer> answers = new List<Answer>();
+    public int score { get; set; } = 0;
+}
+
+[Serializable]
+public class Rounds
+{
+    public List<Round> rounds;
 }

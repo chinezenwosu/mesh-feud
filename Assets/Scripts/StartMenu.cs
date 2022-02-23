@@ -1,15 +1,26 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum BuildScene
+{
+    StartMenu,
+    PlayerMenu,
+    HostMenu,
+    Game
+}
+
 public class StartMenu : MonoBehaviour
 {
     public void StartAsPlayer()
     {
-        SceneManager.LoadScene(1);
+        PlayerManager.Instance.CreatePlayer();
+        SceneManager.LoadScene((int)BuildScene.PlayerMenu);
     }
 
     public void StartAsHost()
     {
-        SceneManager.LoadScene(2);
+        PlayerManager.Instance.CreatePlayer("Host");
+        PlayerManager.Instance.ActAsHost();
+        SceneManager.LoadScene((int)BuildScene.HostMenu);
     }
 }

@@ -1,0 +1,158 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "text": "Overalls",
+          "points": 53
+        },
+        {
+          "text": "Cowboy Hat",
+          "points": 16
+        },
+        {
+          "text": "Blue Jeans",
+          "points": 13
+        },
+        {
+          "text": "Boots",
+          "points": 8
+        },
+        {
+          "text": "Suspenders",
+          "points": 7
+        }
+      ],
+      "question": "Which Article Of Clothing Do You Suspect Every Farmer Owns?"
+    },
+    {
+      "answers": [
+        {
+          "text": "Speech ",
+          "points": 44
+        },
+        {
+          "text": "Play ",
+          "points": 29
+        },
+        {
+          "text": "Song ",
+          "points": 19
+        },
+        {
+          "text": "Wedding ",
+          "points": 12
+        },
+        {
+          "text": "Lines ",
+          "points": 8
+        }
+      ],
+      "question": "Name Something That People Rehearse"
+    },
+    {
+      "answers": [
+        {
+          "text": "Boxing",
+          "points": 39
+        },
+        {
+          "text": "Football",
+          "points": 36
+        },
+        {
+          "text": "Hockey",
+          "points": 14
+        },
+        {
+          "text": "Wrestling",
+          "points": 8
+        }
+      ],
+      "question": "Name A Sports Whose Athletes You’d Least Like To Get In A Fight With"
+    },
+    {
+      "answers": [
+        {
+          "text": "Harry Potter",
+          "points": 29
+        },
+        {
+          "text": "Bible",
+          "points": 19
+        },
+        {
+          "text": "Chronicals Of Narnia",
+          "points": 16
+        },
+        {
+          "text": "Willy Wonka",
+          "points": 14
+        },
+        {
+          "text": "Lord Of The Rings",
+          "points": 7
+        },
+        {
+          "text": "Catcher In The Rye",
+          "points": 7
+        }
+      ],
+      "question": "Name A Book You’d Like To Get As A Gift."
+    },
+    {
+      "answers": [
+        {
+          "text": "Blood",
+          "points": 72
+        },
+        {
+          "text": "The Dark",
+          "points": 8
+        },
+        {
+          "text": "Cross",
+          "points": 7
+        },
+        {
+          "text": "Neck Bites",
+          "points": 4
+        },
+        {
+          "text": "Bats",
+          "points": 2
+        }
+      ],
+      "question": "Name Something You Can’t Be Afraid Of If You Want To Become A Vampire"
+    },
+    {
+      "answers": [
+        {
+          "text": "Mail",
+          "points": 30
+        },
+        {
+          "text": "Safe/Lock Box",
+          "points": 21
+        },
+        {
+          "text": "Dresser Drawers",
+          "points": 16
+        },
+        {
+          "text": "Jewelery Box",
+          "points": 13
+        },
+        {
+          "text": "Purse/Wallet",
+          "points": 11
+        },
+        {
+          "text": "Diary/Journal",
+          "points": 7
+        }
+      ],
+      "question": "Name Something A Housekeeper Should Not Open"
+    }
+  ]
+}

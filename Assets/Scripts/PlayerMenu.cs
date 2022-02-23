@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -5,16 +6,13 @@ using UnityEngine.UI;
 
 public class PlayerMenu : MonoBehaviour
 {
-    public Input Name;
-    public Input Room;
+    private string playerName;
+    private string roomId;
+    private TeamGroup teamGroup = TeamGroup.One;
+    public InputField NameInput;
+    public InputField RoomInput;
     public Button TeamOneButton;
     public Button TeamTwoButton;
-    private TeamGroup teamGroup = TeamGroup.One;
-
-    private void Start()
-    {
-        SelectTeam((int)teamGroup);
-    }
 
     private enum TeamGroup
     {
@@ -22,9 +20,34 @@ public class PlayerMenu : MonoBehaviour
         Two
     }
 
+    private void Start()
+    {
+        SelectTeam((int)teamGroup);
+
+        NameInput.onValueChanged.AddListener(OnNameChanged);
+        RoomInput.onValueChanged.AddListener(OnRoomChanged);
+    }
+
+    private void OnNameChanged(string value)
+    {
+        playerName = value;
+    }
+    
+    private void OnRoomChanged(string value)
+    {
+        roomId = value;
+    }
+
     public void Submit()
     {
-        SceneManager.LoadScene(2);
+        // This should add player to room created by host but we are hardcoding this for now
+        RoomManager.Instance.CreateRoom();
+        Room dummyRoom = RoomManager.Instance.CurrentRoom;
+
+        PlayerManager.Instance.SetPlayerName(playerName);
+        PlayerManager.Instance.AddPlayerToRoom(dummyRoom);
+        PlayerManager.Instance.AddPlayerToTeam(dummyRoom.teams[(int)teamGroup]);
+        SceneManager.LoadScene((int)BuildScene.Game);
     }
 
     public void SelectTeam(int team)

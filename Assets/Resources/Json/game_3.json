@@ -1,0 +1,272 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "text": "Light Out",
+          "points": 35
+        },
+        {
+          "text": "Swerving",
+          "points": 34
+        },
+        {
+          "text": "Failure To Stop",
+          "points": 23
+        },
+        {
+          "text": "No Seatbelt",
+          "points": 6
+        }
+      ],
+      "question": "Other Than Speeding, Name A Reason A Cop Might Pull You Over."
+    },
+    {
+      "answers": [
+        {
+          "text": "Bird",
+          "points": 47
+        },
+        {
+          "text": "Snakes",
+          "points": 32
+        },
+        {
+          "text": "Bee",
+          "points": 12
+        },
+        {
+          "text": "Rat",
+          "points": 3
+        }
+      ],
+      "question": "Name Something That Builds A Nest"
+    },
+    {
+      "answers": [
+        {
+          "text": "Laundry",
+          "points": 36
+        },
+        {
+          "text": "Dishes",
+          "points": 22
+        },
+        {
+          "text": "Cooking",
+          "points": 19
+        },
+        {
+          "text": "Fixing Car",
+          "points": 8
+        },
+        {
+          "text": "Mowing Lawn",
+          "points": 5
+        },
+        {
+          "text": "Fixing Toilet",
+          "points": 3
+        }
+      ],
+      "question": "Name A Job Many Husbands Pretend They Don’t Know How To Do, Just To Get Out Of Doing It."
+    },
+    {
+      "answers": [
+        {
+          "text": "Dog ",
+          "points": 48
+        },
+        {
+          "text": "Gerbil ",
+          "points": 31
+        },
+        {
+          "text": "Hampster ",
+          "points": 20
+        },
+        {
+          "text": "Rabbit ",
+          "points": 13
+        }
+      ],
+      "question": "Name A Pet All Children Want"
+    },
+    {
+      "answers": [
+        {
+          "text": "Popcorn ",
+          "points": 49
+        },
+        {
+          "text": "Crisps ",
+          "points": 32
+        },
+        {
+          "text": "Nuts ",
+          "points": 21
+        },
+        {
+          "text": "Chips ",
+          "points": 14
+        }
+      ],
+      "question": "Name Something You Eat By The Handful"
+    },
+    {
+      "answers": [
+        {
+          "text": "Al/ Peggy Bundy",
+          "points": 41
+        },
+        {
+          "text": "Homer/Marge Simpson",
+          "points": 27
+        },
+        {
+          "text": "RoseAnn/ Dan Conner",
+          "points": 17
+        },
+        {
+          "text": "Archie/Edith Bunker",
+          "points": 11
+        }
+      ],
+      "question": "Past Or Present, Name A TV Couple Whose Marriage You Don’t Want To Emulate."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Muscle Man",
+          32
+        ],
+        [
+          "Coffee",
+          16
+        ],
+        [
+          "Metal/Steel",
+          15
+        ],
+        [
+          "Odor",
+          14
+        ],
+        [
+          "Cocktail",
+          5
+        ],
+        [
+          "Will/Heart",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Be Described As “Strong.”"
+    },
+    {
+      "answers": [
+        [
+          "Newman ",
+          56
+        ],
+        [
+          "Scholes ",
+          36
+        ],
+        [
+          "Mc Cartney ",
+          24
+        ],
+        [
+          "O Grady ",
+          16
+        ],
+        [
+          "Daniels ",
+          10
+        ],
+        [
+          "Merton ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Paul (Surname)"
+    },
+    {
+      "answers": [
+        [
+          "Monkey Bars",
+          66
+        ],
+        [
+          "Swing",
+          24
+        ],
+        [
+          "See Saw",
+          6
+        ],
+        [
+          "Chinup Bar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something On A Kids’ Playground That Adults Could Use As Exercise Equipment."
+    },
+    {
+      "answers": [
+        [
+          "Clothes Don’t Fit",
+          24
+        ],
+        [
+          "Back Pain",
+          16
+        ],
+        [
+          "Hungry",
+          14
+        ],
+        [
+          "Tired",
+          14
+        ],
+        [
+          "Morning Sickness",
+          12
+        ],
+        [
+          "Swollen Feet",
+          10
+        ],
+        [
+          "Cramps",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Complaint A Pregnant Women Might Have"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

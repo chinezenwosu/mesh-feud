@@ -1,0 +1,158 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "text": "Homework",
+          "points": 49
+        },
+        {
+          "text": "Boring",
+          "points": 32
+        },
+        {
+          "text": "Teacher",
+          "points": 21
+        },
+        {
+          "text": "Bullies",
+          "points": 14
+        },
+        {
+          "text": "Too Hard",
+          "points": 9
+        }
+      ],
+      "question": "Name A Reason Kids Give For Not Liking School"
+    },
+    {
+      "answers": [
+        {
+          "text": "Lights",
+          "points": 45
+        },
+        {
+          "text": "TV",
+          "points": 36
+        },
+        {
+          "text": "Oven Radio",
+          "points": 6
+        },
+        {
+          "text": "Radio",
+          "points": 6
+        },
+        {
+          "text": "Partner",
+          "points": 5
+        }
+      ],
+      "question": "Name Something That Can Be Easily Be turned Off"
+    },
+    {
+      "answers": [
+        {
+          "text": "History",
+          "points": 46
+        },
+        {
+          "text": "Geography",
+          "points": 24
+        },
+        {
+          "text": "Movies",
+          "points": 11
+        },
+        {
+          "text": "Current Events",
+          "points": 10
+        },
+        {
+          "text": "The Bible",
+          "points": 3
+        }
+      ],
+      "question": "If You Were Going To Be A Contestant On Jeopardy, Name A Specific Subject Area You’d Want To Memorize Beforehand."
+    },
+    {
+      "answers": [
+        {
+          "text": "Speed",
+          "points": 51
+        },
+        {
+          "text": "Stop The Car",
+          "points": 33
+        },
+        {
+          "text": "Go The Wrong Way",
+          "points": 22
+        },
+        {
+          "text": "Crash",
+          "points": 14
+        },
+        {
+          "text": "Slow Down",
+          "points": 9
+        }
+      ],
+      "question": "What Would You Be Surprised A Car Navigation System Advise You To Do"
+    },
+    {
+      "answers": [
+        {
+          "text": "Turtle Doves",
+          "points": 57
+        },
+        {
+          "text": "Partridge",
+          "points": 37
+        },
+        {
+          "text": "Geese",
+          "points": 24
+        },
+        {
+          "text": "Calling Birds",
+          "points": 16
+        },
+        {
+          "text": "French Hens",
+          "points": 10
+        },
+        {
+          "text": "Swans",
+          "points": 7
+        }
+      ],
+      "question": "Name An Animal Mentioned In The Song “12 Days Of Christmas”"
+    },
+    {
+      "answers": [
+        {
+          "text": "Lice",
+          "points": 31
+        },
+        {
+          "text": "Bad Grades",
+          "points": 24
+        },
+        {
+          "text": "Drugs",
+          "points": 21
+        },
+        {
+          "text": "Illness",
+          "points": 7
+        },
+        {
+          "text": "Germs",
+          "points": 6
+        }
+      ],
+      "question": "Name Something You Wouldn’t Want Your Kid Bringing Home From School."
+    }
+  ]
+}

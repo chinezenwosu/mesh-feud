@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Team
 {
-    public string Name { get; set; } = string.Empty;
-    public int Score { get; set; } = 0;
-    public List<Player> Players { get; set; } = new List<Player>();
+    public string name { get; set; } = string.Empty;
+    public int score { get; set; } = 0;
+    public List<Player> players { get; set; } = new List<Player>();
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player
 {
-    public string Name { get; set; } = null;
-    public Room Room { get; set; } = null;
-    public Team Team { get; set; } = null;
-    public bool IsHost { get; set; } = false;
+    public string name { get; set; } = null;
+    public Room room { get; set; } = null;
+    public Team team { get; set; } = null;
+    public bool isHost { get; set; } = false;
 }

@@ -21,16 +21,13 @@ public class RoundManager
 
     public void SetRound()
     {
-        Round round = new Round
-        {
-            Name = CurrentRound.Name++
-        };
+        Round round = new Round();
         CurrentRound = round;
     }
 
     public void SetScore()
     {
         var score = PlayerPrefs.GetInt("score");
-        CurrentRound.Score = score;
+        CurrentRound.score = score;
     }
 }

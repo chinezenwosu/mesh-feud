@@ -1,0 +1,150 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "text": "Drink Too Much",
+          "points": 48
+        },
+        {
+          "text": "Kiss Someone",
+          "points": 31
+        },
+        {
+          "text": "Dance All Night",
+          "points": 4
+        },
+        {
+          "text": "Get Naked",
+          "points": 3
+        },
+        {
+          "text": "Put Foot In Mouth",
+          "points": 3
+        }
+      ],
+      "question": "What Might You Do At A Party, That You’d Regret The Next Day?"
+    },
+    {
+      "answers": [
+        {
+          "text": "Ostrich",
+          "points": 48
+        },
+        {
+          "text": "Flamingo",
+          "points": 24
+        },
+        {
+          "text": "Crane",
+          "points": 14
+        },
+        {
+          "text": "Stork",
+          "points": 13
+        }
+      ],
+      "question": "Name A Bird With Really Long Legs."
+    },
+    {
+      "answers": [
+        {
+          "text": "Singing",
+          "points": 61
+        },
+        {
+          "text": "Directing",
+          "points": 11
+        },
+        {
+          "text": "Modeling",
+          "points": 10
+        },
+        {
+          "text": "Fashion design",
+          "points": 9
+        },
+        {
+          "text": "Politics",
+          "points": 3
+        },
+        {
+          "text": "Spokeperson",
+          "points": 3
+        }
+      ],
+      "question": "Other than Acting, Name A Profession That Celebrity Actors Might Take Up"
+    },
+    {
+      "answers": [
+        {
+          "text": "Eating",
+          "points": 54
+        },
+        {
+          "text": "Smoking",
+          "points": 35
+        },
+        {
+          "text": "Using A Bathroom",
+          "points": 23
+        },
+        {
+          "text": "Sitting On Furniture",
+          "points": 15
+        },
+        {
+          "text": "Keeping Shoes On",
+          "points": 10
+        },
+        {
+          "text": "Helping To Clean Up",
+          "points": 6
+        }
+      ],
+      "question": "Name Something You Don’t Feel Comfortable Doing At A Neat Freaks House"
+    },
+    {
+      "answers": [
+        {
+          "text": "Leave Name",
+          "points": 56
+        },
+        {
+          "text": "Leave Number",
+          "points": 28
+        },
+        {
+          "text": "Leave Message",
+          "points": 11
+        },
+        {
+          "text": "Call back",
+          "points": 5
+        }
+      ],
+      "question": "Name Something Most Answer Machines Messages Ask You To Do"
+    },
+    {
+      "answers": [
+        {
+          "text": "Song",
+          "points": 42
+        },
+        {
+          "text": "Character/ Voice",
+          "points": 28
+        },
+        {
+          "text": "Slogan",
+          "points": 19
+        },
+        {
+          "text": "The Product",
+          "points": 8
+        }
+      ],
+      "question": "What Sticks In Your Head Most From An Irritating But Memorable Commercial."
+    }
+  ]
+}
