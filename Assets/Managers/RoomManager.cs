@@ -5,7 +5,6 @@ public class RoomManager
 {
     private static RoomManager _instance;
     public Room CurrentRoom { get; private set; }
-    private Random generator = new Random();
 
     public static RoomManager Instance
     {
@@ -25,26 +24,32 @@ public class RoomManager
     {
         Team teamOne = new Team()
         {
-            name = "Team 1"
+            Name = "Team 1"
         };
         Team teamTwo = new Team()
         {
-            name = "Team 2"
+            Name = "Team 2"
         };
 
         Room room = new Room();
-        string id = generator.Next(1, 10000).ToString("D4");
-        room.id = id;
-        room.teams.Add(teamOne);
-        room.teams.Add(teamTwo);
+        string id = GenerateRoomId();
+        room.Id = id;
+        room.Teams.Add(teamOne);
+        room.Teams.Add(teamTwo);
 
         CurrentRoom = room;
+    }
+
+    private string GenerateRoomId()
+    {
+        Random generator = new Random();
+        return generator.Next(1, 10000).ToString("D4");
     }
 
     public void SetRounds(List<Round> rounds)
     {
         EnsureRoomExists();
-        CurrentRoom.rounds = rounds;
+        CurrentRoom.Rounds = rounds;
     }
 
     private void EnsureRoomExists()

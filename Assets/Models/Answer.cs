@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
+[Serializable]
 public class Answer
 {
-    public int points { get; set; } = 0;
-    public string text { get; set; } = string.Empty;
-    public Question question { get; set; } = null;
-    public bool revealed { get; set; } = false;
+    public int Points = 0;
+    public string Text;
+    public bool Revealed { get; set; } = false;
 }

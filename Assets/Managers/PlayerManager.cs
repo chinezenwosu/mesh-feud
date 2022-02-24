@@ -21,7 +21,7 @@ public class PlayerManager
     {
         Player player = new Player()
         {
-            name = name,
+            Name = name,
         };
         CurrentPlayer = player;
     }
@@ -37,23 +37,23 @@ public class PlayerManager
     public void ActAsHost()
     {
         EnsurePlayerExists();
-        CurrentPlayer.isHost = true;
+        CurrentPlayer.IsHost = true;
     }
     public void SetPlayerName(string name)
     {
         EnsurePlayerExists();
-        CurrentPlayer.name = name;
+        CurrentPlayer.Name = name;
     }
 
     public void AddPlayerToTeam(Team team)
     {
         EnsurePlayerExists();
-        CurrentPlayer.team = team;
+        CurrentPlayer.Team = team;
     }
 
     public void AddPlayerToRoom(Room room)
     {
         EnsurePlayerExists();
-        CurrentPlayer.room = room;
+        CurrentPlayer.Room = room;
     }
 }

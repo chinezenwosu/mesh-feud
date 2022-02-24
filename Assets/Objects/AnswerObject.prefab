@@ -261,8 +261,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1310597135395715796}
+  - component: {fileID: 2196172652035074617}
   m_Layer: 0
-  m_Name: Answer
+  m_Name: AnswerObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,6 +284,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2196172652035074617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653888432674758115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b155da6533ca74496eaa644b61d611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnswerText: {fileID: 3521255234434092726}
 --- !u!1 &4067034382602438297
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +425,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -227.78818, y: 0, z: 0, w: 0}
+  m_margin: {x: -227.78818, y: 0, z: -164.83759, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

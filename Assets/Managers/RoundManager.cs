@@ -19,15 +19,18 @@ public class RoundManager
 
     private RoundManager() { }
 
-    public void SetRound()
+    public void SetRound(Round round)
     {
-        Round round = new Round();
         CurrentRound = round;
     }
 
-    public void SetScore()
+    public void AddToRoundScore(int score)
     {
-        var score = PlayerPrefs.GetInt("score");
-        CurrentRound.score = score;
+        CurrentRound.Score += score;
+    }
+
+    public void AddToTeamScore(Team team, int score)
+    {
+        CurrentRound.Score += score;
     }
 }

@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,12 +12,6 @@ public class PlayerMenu : MonoBehaviour
     public InputField RoomInput;
     public Button TeamOneButton;
     public Button TeamTwoButton;
-
-    private enum TeamGroup
-    {
-        One,
-        Two
-    }
 
     private void Start()
     {
@@ -46,7 +39,7 @@ public class PlayerMenu : MonoBehaviour
 
         PlayerManager.Instance.SetPlayerName(playerName);
         PlayerManager.Instance.AddPlayerToRoom(dummyRoom);
-        PlayerManager.Instance.AddPlayerToTeam(dummyRoom.teams[(int)teamGroup]);
+        PlayerManager.Instance.AddPlayerToTeam(dummyRoom.Teams[(int)teamGroup]);
         SceneManager.LoadScene((int)BuildScene.Game);
     }
 

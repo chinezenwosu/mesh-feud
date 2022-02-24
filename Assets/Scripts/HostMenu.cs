@@ -22,7 +22,7 @@ public class HostMenu : MonoBehaviour
     public void SelectGame(int game)
     {
         CreateRoom();
-        Rounds rounds = DataManager.ImportJson<Rounds>($"game_{game}");
+        RoundsList rounds = DataManager.ImportJson<RoundsList>($"game_{game}");
         SetRounds(rounds);
 
         SceneManager.LoadScene((int)BuildScene.Game);
@@ -33,8 +33,9 @@ public class HostMenu : MonoBehaviour
         RoomManager.Instance.CreateRoom();
     }
 
-    public void SetRounds(Rounds rounds)
+    public void SetRounds(RoundsList list)
     {
-        RoomManager.Instance.SetRounds(rounds.rounds);
+        RoomManager.Instance.SetRounds(list.Rounds);
+        RoundManager.Instance.SetRound(list.Rounds[0]);
     }
 }

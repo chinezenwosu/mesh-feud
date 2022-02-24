@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum TeamGroup
+{
+    One,
+    Two
+}
+
 public class Team
 {
-    public string name { get; set; } = string.Empty;
-    public int score { get; set; } = 0;
-    public List<Player> players { get; set; } = new List<Player>();
+    public string Name { get; set; } = string.Empty;
+    public int Score { get; set; } = 0;
+    public List<Player> Players { get; set; } = new List<Player>();
 }

@@ -5,13 +5,14 @@ using UnityEngine;
 [Serializable]
 public class Round
 {
-    public string question = string.Empty;
-    public List<Answer> answers = new List<Answer>();
-    public int score { get; set; } = 0;
+    public int Id;
+    public string Question;
+    public List<Answer> Answers = new List<Answer>();
+    public int Score { get; set; } = 0;
 }
 
 [Serializable]
-public class Rounds
+public class RoundsList
 {
-    public List<Round> rounds;
+    public List<Round> Rounds;
 }
