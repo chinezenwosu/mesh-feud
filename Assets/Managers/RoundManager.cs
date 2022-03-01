@@ -24,13 +24,31 @@ public class RoundManager
         CurrentRound = round;
     }
 
+    public void RevealAnswer(Answer answer)
+    {
+        answer.Revealed = true;
+    }
+
     public void AddToRoundScore(int score)
     {
         CurrentRound.Score += score;
     }
 
-    public void AddToTeamScore(Team team, int score)
+    public void ResetRoundScore()
     {
-        CurrentRound.Score += score;
+        CurrentRound.Score = 0;
+    }
+
+    public void SelectStartingTeam(Team team)
+    {
+        CurrentRound.Starter = team;
+    }
+
+    public void IncrementMistakeCount()
+    {
+        if (CurrentRound.Starter.Mistakes < 3)
+        {
+            CurrentRound.Starter.Mistakes++;
+        }
     }
 }

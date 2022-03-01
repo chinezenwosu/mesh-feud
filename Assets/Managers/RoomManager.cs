@@ -22,21 +22,11 @@ public class RoomManager
 
     public void CreateRoom()
     {
-        Team teamOne = new Team()
-        {
-            Name = "Team 1"
-        };
-        Team teamTwo = new Team()
-        {
-            Name = "Team 2"
-        };
-
+        TeamManager.Instance.CreateTeams();
         Room room = new Room();
         string id = GenerateRoomId();
         room.Id = id;
-        room.Teams.Add(teamOne);
-        room.Teams.Add(teamTwo);
-
+        room.Teams = TeamManager.Instance.CurrentTeams;
         CurrentRoom = room;
     }
 

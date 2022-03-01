@@ -1,24 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HostMenu : MonoBehaviour
 {
-    public Button GameOneButton;
-    public Button GameTwoButton;
-    public Button GameThreeButton;
-    public Button GameFourButton;
-
-    private enum Game
-    {
-        One,
-        Two,
-        Three,
-        Four
-    }
-
     public void SelectGame(int game)
     {
         CreateRoom();
