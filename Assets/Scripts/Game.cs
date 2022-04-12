@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -123,5 +124,17 @@ public class Game : MonoBehaviour
     {
         RoundManager.Instance.ResetRoundScore();
         RoundScore.text = "0";
+    }
+
+    public void MoveToNextQuestion()
+    {
+        int roundIndex = RoundManager.Instance.CurrentRoundIndex;
+
+        if (roundIndex + 1 < RoomManager.Instance.CurrentRoom.Rounds.Count)
+        {
+            RoundManager.Instance.ResetRoundScore();
+            RoundManager.Instance.SetRound(roundIndex + 1);
+            SceneManager.LoadScene((int)BuildScene.Game);
+        }
     }
 }

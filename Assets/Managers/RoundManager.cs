@@ -4,6 +4,7 @@ public class RoundManager
 {
     private static RoundManager _instance;
     public Round CurrentRound { get; private set; }
+    public int CurrentRoundIndex { get; private set; }
 
     public static RoundManager Instance
     {
@@ -19,8 +20,10 @@ public class RoundManager
 
     private RoundManager() { }
 
-    public void SetRound(Round round)
+    public void SetRound(int index)
     {
+        Round round = RoomManager.Instance.CurrentRoom.Rounds[index];
+        CurrentRoundIndex = index;
         CurrentRound = round;
     }
 

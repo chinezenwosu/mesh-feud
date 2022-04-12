@@ -21,6 +21,6 @@ public class HostMenu : MonoBehaviour
     public void SetRounds(RoundsList list)
     {
         RoomManager.Instance.SetRounds(list.Rounds);
-        RoundManager.Instance.SetRound(list.Rounds[0]);
+        RoundManager.Instance.SetRound(0);
     }
 }

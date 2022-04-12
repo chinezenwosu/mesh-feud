@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1866,8 +1866,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2063785794}
         m_TargetAssemblyTypeName: Game, Assembly-CSharp
-        m_MethodName: AwardScoreToTeam
-        m_Mode: 3
+        m_MethodName: MoveToNextQuestion
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3769,14 +3769,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a9d7223d2321640a4fd0e415ad9d89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AnswerButton: {fileID: 1554863588}
   RoundScore: {fileID: 1816317597}
   TeamOneScore: {fileID: 1820875928}
   TeamTwoScore: {fileID: 1094252631}
   Question: {fileID: 569935978}
   RoomId: {fileID: 1245186013}
   AnswersPanel: {fileID: 1131532605}
-  AnswerButton: {fileID: 1554863588}
-  NextQuestionButton: {fileID: 1674477032}
+  NextQuestionButton: {fileID: 1235092205}
   TeamOneAwardButton: {fileID: 606487914}
   TeamTwoAwardButton: {fileID: 756881289}
   MistakeButton: {fileID: 1674477032}
